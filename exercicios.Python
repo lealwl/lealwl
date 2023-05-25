@@ -1,0 +1,47 @@
+Hipotenusa= float(input('Digite o valor do cateto a: '))
+Hipotenusa2= float(input('Digite o valor do cateto b: '))
+
+
+calc= Hipotenusa**2 + Hipotenusa2**2
+raiz= calc**0.5
+
+print(f'O valor da Hipotenusa é: {raiz}')
+p1 = float(input("Digite um numero: "))
+
+==================================================
+
+p2 = float(input("Digite outro numero: "))
+
+p3 = float(input("Digite outro numero: "))
+
+media=(p1+p2+p3)/3
+
+==============================================
+
+print(f'O resultado da aritmética é: {media} ')
+p1 = float(input("Digite um numero: "))
+p2 = float(input("Digite outro numero: "))
+p3 = float(input("Digite outro numero: "))
+
+media=(p1+p2+p3)/3
+
+print(f'O resultado da aritmética é: {media} ')
+nome=("Wellington")
+idade=15+1
+peso=70.4
+
+======================================================
+
+print(nome,idade,peso)
+
+numero=4/2
+quadrado=numero**2
+equacao=quadrado*(50-20)
+print('O valor é: ',equacao)
+const= 3.1416
+raio= float(input('Digite o raio: '))
+altura= float(input('Digite a altura: '))
+
+volume= const * raio**2 * altura
+
+print(f'O volume calculado é: {volume: .2f}')
